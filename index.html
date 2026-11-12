@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kho Repo GitHub</title>
+<meta name="description" content="Bộ sưu tập các repo GitHub hữu ích, tổng hợp từ Kho Repo của Phan Đông Giang, cập nhật tự động hàng tuần."/>
+<style>
+  :root{
+    --bg:#f6f7f9; --card:#ffffff; --text:#1f2430; --muted:#5c6470;
+    --border:#e2e5ea; --accent:#4f46e5; --chip:#eef0f4; --gold:#d97706;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--text)}
+  header{background:var(--card);border-bottom:1px solid var(--border)}
+  .wrap{max-width:1200px;margin:0 auto;padding:24px 16px}
+  h1{margin:0 0 8px;font-size:30px}
+  .intro{color:var(--muted);margin:0 0 4px;line-height:1.55}
+  .meta{color:var(--muted);font-size:14px;margin:0}
+  .controls{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0 8px}
+  .controls input[type="search"]{flex:1 1 260px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;font-size:15px;background:#fff}
+  .controls select{padding:10px;border:1px solid var(--border);border-radius:10px;font-size:15px;background:#fff}
+  .count{color:var(--muted);font-size:14px;margin:6px 0 14px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:border-color .15s ease}
+  .card:hover{border-color:#c3c9d4}
+  .card img{width:100%;aspect-ratio:16/9;object-fit:cover;background:#eceef1;display:block}
+  .card-body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
+  .card h2{font-size:16.5px;margin:0;line-height:1.35;word-break:break-word}
+  .card h2 a{color:var(--text);text-decoration:none}
+  .card h2 a:hover{color:var(--accent);text-decoration:underline}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;font-size:12.5px}
+  .tag{background:var(--chip);border-radius:999px;padding:3px 9px;color:var(--muted)}
+  .tag.stars{color:var(--gold);font-weight:700;background:#fdf3e3}
+  .tag.topic{color:var(--accent);background:#eceafd;font-weight:600}
+  .desc{color:var(--muted);font-size:14px;line-height:1.55;margin:0}
+  .empty{color:var(--muted);text-align:center;padding:40px 0;font-size:15px}
+  footer{border-top:1px solid var(--border);margin-top:32px;background:var(--card)}
+  footer p{color:var(--muted);font-size:14px;line-height:1.6;margin:0}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Kho Repo GitHub</h1>
+    <p class="intro">Bộ sưu tập các repo GitHub hữu ích cho học tập và làm việc, chọn lọc theo chủ đề, ngôn ngữ và mức độ phổ biến.</p>
+    <p class="meta">Tổng số: <strong id="total">...</strong> repo · Cập nhật: <strong id="updated">...</strong></p>
+    <div class="controls">
+      <input type="search" id="q" placeholder="Tìm theo tên repo hoặc mô tả..." aria-label="Tìm kiếm repo"/>
+      <select id="topic" aria-label="Lọc theo chủ đề"><option value="">Tất cả chủ đề</option></select>
+      <select id="lang" aria-label="Lọc theo ngôn ngữ"><option value="">Tất cả ngôn ngữ</option></select>
+      <select id="sort" aria-label="Sắp xếp">
+        <option value="stars-desc">Sao giảm dần</option>
+        <option value="stars-asc">Sao tăng dần</option>
+        <option value="name">Tên A–Z</option>
+      </select>
+    </div>
+    <p class="count" id="count"></p>
+  </div>
+</header>
+<main class="wrap">
+  <div class="grid" id="grid"></div>
+  <p class="empty" id="empty" hidden>Không có repo nào khớp với điều kiện lọc hiện tại.</p>
+</main>
+<footer>
+  <div class="wrap">
+    <p>Dữ liệu tổng hợp từ <a href="https://phandonggiang.com/kho-repo" target="_blank" rel="noopener">Kho Repo của Phan Đông Giang (phandonggiang.com/kho-repo)</a>, cập nhật tự động hàng tuần. Mọi repo thuộc về các tác giả tương ứng trên GitHub.</p>
+  </div>
+</footer>
+<script>
+(function(){
+  var all = [];
+  var grid = document.getElementById('grid');
+  var emptyEl = document.getElementById('empty');
+  var countEl = document.getElementById('count');
+  var qEl = document.getElementById('q');
+  var topicEl = document.getElementById('topic');
+  var langEl = document.getElementById('lang');
+  var sortEl = document.getElementById('sort');
+
+  function fillSelect(el, values){
+    values.sort(function(a,b){ return a.localeCompare(b, 'vi'); });
+    values.forEach(function(v){
+      var o = document.createElement('option');
+      o.value = v; o.textContent = v;
+      el.appendChild(o);
+    });
+  }
+
+  function render(){
+    var q = qEl.value.trim().toLowerCase();
+    var topic = topicEl.value;
+    var lang = langEl.value;
+    var list = all.filter(function(r){
+      if (topic && r.topic !== topic) return false;
+      if (lang && r.language !== lang) return false;
+      if (q && (r.name + ' ' + r.description).toLowerCase().indexOf(q) === -1) return false;
+      return true;
+    });
+    if (sortEl.value === 'stars-desc') list.sort(function(a,b){ return b.stars - a.stars; });
+    else if (sortEl.value === 'stars-asc') list.sort(function(a,b){ return a.stars - b.stars; });
+    else list.sort(function(a,b){ return a.name.toLowerCase().localeCompare(b.name.toLowerCase()); });
+
+    countEl.textContent = 'Đang hiển thị ' + list.length + ' / ' + all.length + ' repo';
+    emptyEl.hidden = list.length > 0;
+    grid.innerHTML = '';
+    list.forEach(function(r){
+      var card = document.createElement('article');
+      card.className = 'card';
+      var img = document.createElement('img');
+      img.src = r.preview; img.alt = 'Ảnh xem trước của ' + r.name;
+      img.loading = 'lazy'; img.referrerPolicy = 'no-referrer';
+      var body = document.createElement('div');
+      body.className = 'card-body';
+      var h = document.createElement('h2');
+      var a = document.createElement('a');
+      a.href = r.url; a.target = '_blank'; a.rel = 'noopener';
+      a.textContent = r.name;
+      h.appendChild(a);
+      var tags = document.createElement('div');
+      tags.className = 'tags';
+      [['★ ' + r.stars_text, 'tag stars'], [r.language, 'tag'], [r.topic, 'tag topic']].forEach(function(t){
+        var s = document.createElement('span');
+        s.className = t[1]; s.textContent = t[0];
+        tags.appendChild(s);
+      });
+      var p = document.createElement('p');
+      p.className = 'desc'; p.textContent = r.description;
+      body.appendChild(h); body.appendChild(tags); body.appendChild(p);
+      card.appendChild(img); card.appendChild(body);
+      grid.appendChild(card);
+    });
+  }
+
+  fetch('data/repos.json')
+    .then(function(res){ return res.json(); })
+    .then(function(data){
+      all = data.repos || [];
+      document.getElementById('total').textContent = data.total;
+      document.getElementById('updated').textContent = data.crawled_at;
+      var topics = [], langs = [], seenT = {}, seenL = {};
+      all.forEach(function(r){
+        if (!seenT[r.topic]) { seenT[r.topic] = 1; topics.push(r.topic); }
+        if (!seenL[r.language]) { seenL[r.language] = 1; langs.push(r.language); }
+      });
+      fillSelect(topicEl, topics);
+      fillSelect(langEl, langs);
+      render();
+    })
+    .catch(function(){
+      countEl.textContent = 'Không tải được dữ liệu. Vui lòng thử lại sau.';
+    });
+
+  [qEl, topicEl, langEl, sortEl].forEach(function(el){
+    el.addEventListener('input', render);
+    el.addEventListener('change', render);
+  });
+})();
+</script>
+</body>
+</html>
