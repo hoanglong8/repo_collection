@@ -1,8 +1,8 @@
 {
   "source": "https://phandonggiang.com/kho-repo",
   "source_name": "Kho Repo – Phan Đông Giang",
-  "crawled_at": "2026-11-21",
-  "total": 1011,
+  "crawled_at": "2026-11-23",
+  "total": 1012,
   "repos": [
     {
       "name": "codecrafters-io/build-your-own-x",
@@ -10073,6 +10073,16 @@
       "language": "JavaScript",
       "topic": "scrape",
       "preview": "https://opengraph.githubassets.com/1/cporter202/social-media-scraping-apis"
+    },
+    {
+      "name": "Illyism/seo-skills",
+      "url": "https://github.com/Illyism/seo-skills",
+      "description": "30 open-source SEO skills (SKILL.md) for Claude Code, Cursor, Codex & AI agents: technical SEO roasts, Ahrefs & DataForSEO SERP workflows, first-hand proof KBs, backlinks & GEO.",
+      "stars_text": "1.8K",
+      "stars": 1814,
+      "language": "JavaScript",
+      "topic": "skills",
+      "preview": "https://opengraph.githubassets.com/1/Illyism/seo-skills"
     },
     {
       "name": "Tejashmakwana/motionmaxxing",
