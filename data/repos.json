@@ -2,7 +2,7 @@
   "source": "https://phandonggiang.com/kho-repo",
   "source_name": "Kho Repo – Phan Đông Giang",
   "crawled_at": "2026-11-23",
-  "total": 1012,
+  "total": 1022,
   "repos": [
     {
       "name": "codecrafters-io/build-your-own-x",
@@ -3025,6 +3025,17 @@
       "preview": "https://opengraph.githubassets.com/1/keras-team/keras"
     },
     {
+      "name": "bilibili/GPT-SoVITS",
+      "url": "https://github.com/bilibili/GPT-SoVITS",
+      "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
+      "stars_text": "64.3K",
+      "stars": 64291,
+      "language": "Python",
+      "topic": "AI & LLM",
+      "preview": "https://opengraph.githubassets.com/1/bilibili/GPT-SoVITS",
+      "origin": "TopRepo"
+    },
+    {
       "name": "tw93/Pake",
       "url": "https://github.com/tw93/Pake",
       "description": "Turn any website into a lightweight desktop app with one command, on macOS, Windows and Linux.",
@@ -4003,6 +4014,17 @@
       "language": "Rust",
       "topic": "coding",
       "preview": "https://opengraph.githubassets.com/1/codewhale-hq/Codewhale"
+    },
+    {
+      "name": "datalab-to/marker",
+      "url": "https://github.com/datalab-to/marker",
+      "description": "Convert PDF to markdown + JSON quickly with high accuracy",
+      "stars_text": "41.1K",
+      "stars": 41095,
+      "language": "Python",
+      "topic": "AI & LLM",
+      "preview": "https://opengraph.githubassets.com/1/datalab-to/marker",
+      "origin": "TopRepo"
     },
     {
       "name": "ShareX/ShareX",
@@ -6863,6 +6885,17 @@
       "language": "Python",
       "topic": "fin",
       "preview": "https://opengraph.githubassets.com/1/akfamily/akshare"
+    },
+    {
+      "name": "Sanster/IOPaint",
+      "url": "https://github.com/Sanster/IOPaint",
+      "description": "Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures.",
+      "stars_text": "23.3K",
+      "stars": 23282,
+      "language": "Python",
+      "topic": "AI & LLM",
+      "preview": "https://opengraph.githubassets.com/1/Sanster/IOPaint",
+      "origin": "TopRepo"
     },
     {
       "name": "czlonkowski/n8n-mcp",
@@ -10003,6 +10036,83 @@
       "language": "TypeScript",
       "topic": "frontend",
       "preview": "https://opengraph.githubassets.com/1/BuilderIO/mitosis"
+    },
+    {
+      "name": "vercel/satori",
+      "url": "https://github.com/vercel/satori",
+      "description": "Enlightened library to convert HTML and CSS to SVG",
+      "stars_text": "14.2K",
+      "stars": 14222,
+      "language": "TypeScript",
+      "topic": "Web & Giao diện",
+      "preview": "https://opengraph.githubassets.com/1/vercel/satori",
+      "origin": "TopRepo"
+    },
+    {
+      "name": "automatisch/automatisch",
+      "url": "https://github.com/automatisch/automatisch",
+      "description": "The open source Zapier alternative. Build workflow automation without spending time and money.",
+      "stars_text": "14.0K",
+      "stars": 14033,
+      "language": "JavaScript",
+      "topic": "Ứng dụng & Tiện ích",
+      "preview": "https://opengraph.githubassets.com/1/automatisch/automatisch",
+      "origin": "TopRepo"
+    },
+    {
+      "name": "puckeditor/puck",
+      "url": "https://github.com/puckeditor/puck",
+      "description": "The visual editor for React.",
+      "stars_text": "13.8K",
+      "stars": 13776,
+      "language": "TypeScript",
+      "topic": "Web & Giao diện",
+      "preview": "https://opengraph.githubassets.com/1/puckeditor/puck",
+      "origin": "TopRepo"
+    },
+    {
+      "name": "run-llama/liteparse",
+      "url": "https://github.com/run-llama/liteparse",
+      "description": "A fast, helpful, and open-source document parser",
+      "stars_text": "13.5K",
+      "stars": 13465,
+      "language": "Rust",
+      "topic": "AI & LLM",
+      "preview": "https://opengraph.githubassets.com/1/run-llama/liteparse",
+      "origin": "TopRepo"
+    },
+    {
+      "name": "Netflix/conductor",
+      "url": "https://github.com/Netflix/conductor",
+      "description": "Conductor is a microservices orchestration engine.",
+      "stars_text": "12.8K",
+      "stars": 12754,
+      "language": "Java",
+      "topic": "Hạ tầng & Hệ thống",
+      "preview": "https://opengraph.githubassets.com/1/Netflix/conductor",
+      "origin": "TopRepo"
+    },
+    {
+      "name": "vesoft-inc/nebula",
+      "url": "https://github.com/vesoft-inc/nebula",
+      "description": "  A distributed, fast open-source graph database featuring horizontal scalability and high availability",
+      "stars_text": "12.5K",
+      "stars": 12478,
+      "language": "C++",
+      "topic": "API & Dữ liệu",
+      "preview": "https://opengraph.githubassets.com/1/vesoft-inc/nebula",
+      "origin": "TopRepo"
+    },
+    {
+      "name": "janestreet/agent_skills",
+      "url": "https://github.com/janestreet/agent_skills",
+      "description": "Agent skills",
+      "stars_text": "12.1K",
+      "stars": 12068,
+      "language": "Khác",
+      "topic": "AI & LLM",
+      "preview": "https://opengraph.githubassets.com/1/janestreet/agent_skills",
+      "origin": "TopRepo"
     },
     {
       "name": "cobusgreyling/loop-engineering",
