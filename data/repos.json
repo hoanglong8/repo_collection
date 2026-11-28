@@ -1,8 +1,8 @@
 {
   "source": "https://phandonggiang.com/kho-repo",
   "source_name": "Kho Repo – Phan Đông Giang",
-  "crawled_at": "2026-11-23",
-  "total": 1022,
+  "crawled_at": "2026-11-28",
+  "total": 1063,
   "repos": [
     {
       "name": "codecrafters-io/build-your-own-x",
@@ -128,8 +128,8 @@
       "name": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "stars_text": "325K",
-      "stars": 324832,
+      "stars_text": "334K",
+      "stars": 333663,
       "language": "Shell",
       "topic": "skills",
       "preview": "https://opengraph.githubassets.com/1/mattpocock/skills"
@@ -275,6 +275,16 @@
       "preview": "https://opengraph.githubassets.com/1/ossu/computer-science"
     },
     {
+      "name": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "description": "🔥 The API to search, scrape, and interact with the web for AI",
+      "stars_text": "211K",
+      "stars": 210970,
+      "language": "TypeScript",
+      "topic": "scrape",
+      "preview": "https://opengraph.githubassets.com/1/firecrawl/firecrawl"
+    },
+    {
       "name": "n8n-io/n8n",
       "url": "https://github.com/n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
@@ -303,16 +313,6 @@
       "language": "Python",
       "topic": "media",
       "preview": "https://opengraph.githubassets.com/1/yt-dlp/yt-dlp"
-    },
-    {
-      "name": "firecrawl/firecrawl",
-      "url": "https://github.com/firecrawl/firecrawl",
-      "description": "🔥 The API to search, scrape, and interact with the web for AI",
-      "stars_text": "202K",
-      "stars": 201943,
-      "language": "TypeScript",
-      "topic": "scrape",
-      "preview": "https://opengraph.githubassets.com/1/firecrawl/firecrawl"
     },
     {
       "name": "tensorflow/tensorflow",
@@ -2505,6 +2505,16 @@
       "preview": "https://opengraph.githubassets.com/1/Ebony-Vinyl/dsh-our-free-model"
     },
     {
+      "name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "stars_text": "75.8K",
+      "stars": 75823,
+      "language": "Python",
+      "topic": "skills",
+      "preview": "https://opengraph.githubassets.com/1/mvanhorn/last30days-skill"
+    },
+    {
       "name": "binhnguyennus/awesome-scalability",
       "url": "https://github.com/binhnguyennus/awesome-scalability",
       "description": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
@@ -2633,6 +2643,16 @@
       "language": "Scala",
       "topic": "Khác",
       "preview": "https://opengraph.githubassets.com/1/twitter/the-algorithm"
+    },
+    {
+      "name": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "stars_text": "74.0K",
+      "stars": 74022,
+      "language": "Python",
+      "topic": "skills",
+      "preview": "https://opengraph.githubassets.com/1/blader/humanizer"
     },
     {
       "name": "unionlabs/union",
@@ -2875,16 +2895,6 @@
       "preview": "https://opengraph.githubassets.com/1/expressjs/express"
     },
     {
-      "name": "blader/humanizer",
-      "url": "https://github.com/blader/humanizer",
-      "description": "Agent skill that removes signs of AI-generated writing from text",
-      "stars_text": "69.5K",
-      "stars": 69518,
-      "language": "Python",
-      "topic": "skills",
-      "preview": "https://opengraph.githubassets.com/1/blader/humanizer"
-    },
-    {
       "name": "shanraisshan/claude-code-best-practice",
       "url": "https://github.com/shanraisshan/claude-code-best-practice",
       "description": "from vibe coding to agentic engineering - practice makes claude perfect",
@@ -2933,16 +2943,6 @@
       "language": "Go",
       "topic": "fin",
       "preview": "https://opengraph.githubassets.com/1/base/node"
-    },
-    {
-      "name": "mvanhorn/last30days-skill",
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "stars_text": "67.8K",
-      "stars": 67820,
-      "language": "Python",
-      "topic": "skills",
-      "preview": "https://opengraph.githubassets.com/1/mvanhorn/last30days-skill"
     },
     {
       "name": "labmlai/annotated_deep_learning_paper_implementations",
@@ -3654,6 +3654,16 @@
       "language": "Haskell",
       "topic": "tools",
       "preview": "https://opengraph.githubassets.com/1/jgm/pandoc"
+    },
+    {
+      "name": "imputnet/cobalt",
+      "url": "https://github.com/imputnet/cobalt",
+      "description": "best way to save what you love",
+      "stars_text": "46.8K",
+      "stars": 46787,
+      "language": "Svelte",
+      "topic": "media",
+      "preview": "https://opengraph.githubassets.com/1/imputnet/cobalt"
     },
     {
       "name": "milvus-io/milvus",
@@ -4537,6 +4547,16 @@
       "preview": "https://opengraph.githubassets.com/1/huggingface/pytorch-image-models"
     },
     {
+      "name": "webadderallorg/Recordly",
+      "url": "https://github.com/webadderallorg/Recordly",
+      "description": "Create polished demo videos without editing skills. Mac/Windows/Linux",
+      "stars_text": "37.3K",
+      "stars": 37276,
+      "language": "TypeScript",
+      "topic": "genvideo",
+      "preview": "https://opengraph.githubassets.com/1/webadderallorg/Recordly"
+    },
+    {
       "name": "medusajs/medusa",
       "url": "https://github.com/medusajs/medusa",
       "description": "The world's most flexible commerce platform for agents and developers",
@@ -5337,6 +5357,16 @@
       "preview": "https://opengraph.githubassets.com/1/gitleaks/gitleaks"
     },
     {
+      "name": "alchaincyf/huashu-design",
+      "url": "https://github.com/alchaincyf/huashu-design",
+      "description": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
+      "stars_text": "31.1K",
+      "stars": 31066,
+      "language": "HTML",
+      "topic": "viz",
+      "preview": "https://opengraph.githubassets.com/1/alchaincyf/huashu-design"
+    },
+    {
       "name": "e2b-dev/awesome-ai-agents",
       "url": "https://github.com/e2b-dev/awesome-ai-agents",
       "description": "A list of AI autonomous agents",
@@ -5607,16 +5637,6 @@
       "preview": "https://opengraph.githubassets.com/1/alibaba/page-agent"
     },
     {
-      "name": "alchaincyf/huashu-design",
-      "url": "https://github.com/alchaincyf/huashu-design",
-      "description": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
-      "stars_text": "29.6K",
-      "stars": 29642,
-      "language": "HTML",
-      "topic": "viz",
-      "preview": "https://opengraph.githubassets.com/1/alchaincyf/huashu-design"
-    },
-    {
       "name": "python-telegram-bot/python-telegram-bot",
       "url": "https://github.com/python-telegram-bot/python-telegram-bot",
       "description": "We have made you a wrapper you can't refuse",
@@ -5655,6 +5675,16 @@
       "language": "Khác",
       "topic": "skills",
       "preview": "https://opengraph.githubassets.com/1/JushBJJ/Mr.-Ranedeer-AI-Tutor"
+    },
+    {
+      "name": "wheresryan22/anatomy",
+      "url": "https://github.com/wheresryan22/anatomy",
+      "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+      "stars_text": "29.4K",
+      "stars": 29396,
+      "language": "JavaScript",
+      "topic": "viz",
+      "preview": "https://opengraph.githubassets.com/1/wheresryan22/anatomy"
     },
     {
       "name": "donnemartin/data-science-ipython-notebooks",
@@ -6517,6 +6547,16 @@
       "preview": "https://opengraph.githubassets.com/1/modelcontextprotocol/python-sdk"
     },
     {
+      "name": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "stars_text": "24.7K",
+      "stars": 24732,
+      "language": "Python",
+      "topic": "Bảo mật",
+      "preview": "https://opengraph.githubassets.com/1/elementalsouls/Claude-BugHunter"
+    },
+    {
       "name": "slopus/happy",
       "url": "https://github.com/slopus/happy",
       "description": "Orchestrate Claude, Codex and Grok in one app. Open-source (MIT), reuses the subscriptions you already pay for.",
@@ -7166,6 +7206,16 @@
       "language": "Python",
       "topic": "learnai",
       "preview": "https://opengraph.githubassets.com/1/MLEveryday/100-Days-Of-ML-Code"
+    },
+    {
+      "name": "heydamir/unslop",
+      "url": "https://github.com/heydamir/unslop",
+      "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+      "stars_text": "22.2K",
+      "stars": 22230,
+      "language": "JavaScript",
+      "topic": "skills",
+      "preview": "https://opengraph.githubassets.com/1/heydamir/unslop"
     },
     {
       "name": "izackwu/TeachYourselfCS-CN",
@@ -8166,6 +8216,16 @@
       "language": "Jupyter Notebook",
       "topic": "learnai",
       "preview": "https://opengraph.githubassets.com/1/meta-llama/llama-cookbook"
+    },
+    {
+      "name": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "stars_text": "18.6K",
+      "stars": 18590,
+      "language": "TypeScript",
+      "topic": "coding",
+      "preview": "https://opengraph.githubassets.com/1/cursor/plugins"
     },
     {
       "name": "greensock/gsap-skills",
@@ -9478,6 +9538,16 @@
       "preview": "https://opengraph.githubassets.com/1/DataTalksClub/mlops-zoomcamp"
     },
     {
+      "name": "nexu-io/openmotion",
+      "url": "https://github.com/nexu-io/openmotion",
+      "description": "The open-source Claude Motion & CapCut alternative. Turn a reference video into editable motion graphics with your brand kit. Export MP4s for YouTube, YouTube Shorts, Instagram Reels, and TikTok. A full-stack agentic video studio with 300+ Motion.md guides and support for 22 agents, including Claude Code, Codex, DSH, and WorkBuddy.",
+      "stars_text": "15.5K",
+      "stars": 15520,
+      "language": "TypeScript",
+      "topic": "genvideo",
+      "preview": "https://opengraph.githubassets.com/1/nexu-io/openmotion"
+    },
+    {
       "name": "kaldi-asr/kaldi",
       "url": "https://github.com/kaldi-asr/kaldi",
       "description": "kaldi-asr/kaldi is the official location of the Kaldi project.",
@@ -10125,6 +10195,36 @@
       "preview": "https://opengraph.githubassets.com/1/cobusgreyling/loop-engineering"
     },
     {
+      "name": "AgriciDaniel/claude-ads",
+      "url": "https://github.com/AgriciDaniel/claude-ads",
+      "description": "Claude-first paid-media operations skill for Claude Code across 12 ad platforms (Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple, Amazon, Reddit, Pinterest, Snapchat, X): source-grounded audits, deterministic findings and evidence coverage, versioned JSON reports, and capability-gated account changes.",
+      "stars_text": "11.4K",
+      "stars": 11371,
+      "language": "Python",
+      "topic": "skills",
+      "preview": "https://opengraph.githubassets.com/1/AgriciDaniel/claude-ads"
+    },
+    {
+      "name": "nicobailon/visual-explainer",
+      "url": "https://github.com/nicobailon/visual-explainer",
+      "description": "Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps",
+      "stars_text": "11.3K",
+      "stars": 11294,
+      "language": "JavaScript",
+      "topic": "viz",
+      "preview": "https://opengraph.githubassets.com/1/nicobailon/visual-explainer"
+    },
+    {
+      "name": "kajisho5/ffmpeg-skill",
+      "url": "https://github.com/kajisho5/ffmpeg-skill",
+      "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+      "stars_text": "10.4K",
+      "stars": 10408,
+      "language": "Python",
+      "topic": "genvideo",
+      "preview": "https://opengraph.githubassets.com/1/kajisho5/ffmpeg-skill"
+    },
+    {
       "name": "JuneYaooo/rea-video",
       "url": "https://github.com/JuneYaooo/rea-video",
       "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
@@ -10133,6 +10233,16 @@
       "language": "Python",
       "topic": "genvideo",
       "preview": "https://opengraph.githubassets.com/1/JuneYaooo/rea-video"
+    },
+    {
+      "name": "erkamyaman/rust-anything",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+      "stars_text": "9.9K",
+      "stars": 9866,
+      "language": "Rust",
+      "topic": "lang",
+      "preview": "https://opengraph.githubassets.com/1/erkamyaman/rust-anything"
     },
     {
       "name": "cporter202/API-mega-list",
@@ -10145,6 +10255,66 @@
       "preview": "https://opengraph.githubassets.com/1/cporter202/API-mega-list"
     },
     {
+      "name": "remotion-dev/skills",
+      "url": "https://github.com/remotion-dev/skills",
+      "description": "Agent Skills",
+      "stars_text": "7.9K",
+      "stars": 7903,
+      "language": "TypeScript",
+      "topic": "genvideo",
+      "preview": "https://opengraph.githubassets.com/1/remotion-dev/skills"
+    },
+    {
+      "name": "Jakeschincariol/youtube-agent-skill",
+      "url": "https://github.com/Jakeschincariol/youtube-agent-skill",
+      "description": "Eleven Claude skills that run a YouTube channel: scripts off 21 hook formulas with a scored hook, title and thumbnail linted as one pairing, an edit decision list from your transcript, a retention reader that finds where viewers actually leave, a Shorts cutter, and a virality engine. Free, MIT.",
+      "stars_text": "7.2K",
+      "stars": 7180,
+      "language": "Python",
+      "topic": "genvideo",
+      "preview": "https://opengraph.githubassets.com/1/Jakeschincariol/youtube-agent-skill"
+    },
+    {
+      "name": "czlonkowski/n8n-skills",
+      "url": "https://github.com/czlonkowski/n8n-skills",
+      "description": "n8n skillset for Claude Code to build flawless n8n workflows",
+      "stars_text": "6.7K",
+      "stars": 6705,
+      "language": "Shell",
+      "topic": "platform",
+      "preview": "https://opengraph.githubassets.com/1/czlonkowski/n8n-skills"
+    },
+    {
+      "name": "browser-act/skills",
+      "url": "https://github.com/browser-act/skills",
+      "description": "Browser automation CLI built for AI agents. Break through anti-bot walls, hand off to humans across platforms when stuck. Parallel multi-task execution, independent multi-session operation, isolated multi-account browsing.",
+      "stars_text": "6.4K",
+      "stars": 6424,
+      "language": "Python",
+      "topic": "scrape",
+      "preview": "https://opengraph.githubassets.com/1/browser-act/skills"
+    },
+    {
+      "name": "Augani/openreel-video",
+      "url": "https://github.com/Augani/openreel-video",
+      "description": "OpenReel Video - Professional browser-based video editor. Open source CapCut alternative. 100% browser-based, no installation, no cloud uploads, no watermarks.",
+      "stars_text": "6.4K",
+      "stars": 6365,
+      "language": "TypeScript",
+      "topic": "genvideo",
+      "preview": "https://opengraph.githubassets.com/1/Augani/openreel-video"
+    },
+    {
+      "name": "microsoft/skill-recorder",
+      "url": "https://github.com/microsoft/skill-recorder",
+      "description": "Desktop app that records your on-screen work session and uses the GitHub Copilot SDK to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Autopilots like Scout, Microsoft Copilot Cowork, or Copilot Studio.",
+      "stars_text": "5.9K",
+      "stars": 5899,
+      "language": "TypeScript",
+      "topic": "skills",
+      "preview": "https://opengraph.githubassets.com/1/microsoft/skill-recorder"
+    },
+    {
       "name": "RoutineMiku/apkstart",
       "url": "https://github.com/RoutineMiku/apkstart",
       "description": "Windows 上的安卓应用运行器：双击 APK 即装，应用以独立窗口与桌面图标运行，自持 QEMU 运行时",
@@ -10153,6 +10323,16 @@
       "language": "JavaScript",
       "topic": "sys",
       "preview": "https://opengraph.githubassets.com/1/RoutineMiku/apkstart"
+    },
+    {
+      "name": "zenstory-ai/drama-skills",
+      "url": "https://github.com/zenstory-ai/drama-skills",
+      "description": "AI 短剧与漫剧制作 Agent 技能包：小说改剧本、视觉设定、分镜、生图/生视频提示词与剪辑成片，适配 Claude Code / Codex 等 ｜ Agent skills for AI short dramas & motion comics",
+      "stars_text": "4.9K",
+      "stars": 4891,
+      "language": "Python",
+      "topic": "genvideo",
+      "preview": "https://opengraph.githubassets.com/1/zenstory-ai/drama-skills"
     },
     {
       "name": "cporter202/scraping-apis-for-devs",
@@ -10165,6 +10345,26 @@
       "preview": "https://opengraph.githubassets.com/1/cporter202/scraping-apis-for-devs"
     },
     {
+      "name": "ericosiu/ai-marketing-skills",
+      "url": "https://github.com/ericosiu/ai-marketing-skills",
+      "description": "Open-source AI marketing skills — growth experiments, sales pipeline, content ops, outbound, SEO, and finance automation",
+      "stars_text": "3.9K",
+      "stars": 3878,
+      "language": "Python",
+      "topic": "skills",
+      "preview": "https://opengraph.githubassets.com/1/ericosiu/ai-marketing-skills"
+    },
+    {
+      "name": "google-gemini/gemini-api-cli",
+      "url": "https://github.com/google-gemini/gemini-api-cli",
+      "description": "An (experimental) CLI for the Gemini API",
+      "stars_text": "3.8K",
+      "stars": 3826,
+      "language": "Go",
+      "topic": "tools",
+      "preview": "https://opengraph.githubassets.com/1/google-gemini/gemini-api-cli"
+    },
+    {
       "name": "FlashML-org/FreeVideo",
       "url": "https://github.com/FlashML-org/FreeVideo",
       "description": "Make videos on the computer you already own. FreeVideo runs MiniMax H3 in as little as 8 GB of VRAM and 16 GB of RAM, and adapts its acceleration path to your hardware.",
@@ -10175,6 +10375,36 @@
       "preview": "https://opengraph.githubassets.com/1/FlashML-org/FreeVideo"
     },
     {
+      "name": "EL4CTEO/fast-anything",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+      "stars_text": "3.3K",
+      "stars": 3335,
+      "language": "Rust",
+      "topic": "lang",
+      "preview": "https://opengraph.githubassets.com/1/EL4CTEO/fast-anything"
+    },
+    {
+      "name": "nateherkai/herk-edit-kit",
+      "url": "https://github.com/nateherkai/herk-edit-kit",
+      "description": "Herk Edit Kit by Nate Herk: edit videos, reels, and YouTube Shorts with Codex or Claude Code. 15 skills, transcript-driven cuts, storytelling, 406 motion-graphics cards, and HyperFrames templates.",
+      "stars_text": "3.1K",
+      "stars": 3119,
+      "language": "HTML",
+      "topic": "genvideo",
+      "preview": "https://opengraph.githubassets.com/1/nateherkai/herk-edit-kit"
+    },
+    {
+      "name": "bangtutorial/bang-motion",
+      "url": "https://github.com/bangtutorial/bang-motion",
+      "description": "Agent skill for browser motion graphics — openers, promos, bumpers, kinetic typography, and five explainer styles that move like video, not slides. Single index.html output. Works with Claude Code, Codex, Gemini CLI, Cursor.",
+      "stars_text": "3.1K",
+      "stars": 3085,
+      "language": "HTML",
+      "topic": "genvideo",
+      "preview": "https://opengraph.githubassets.com/1/bangtutorial/bang-motion"
+    },
+    {
       "name": "cporter202/social-media-scraping-apis",
       "url": "https://github.com/cporter202/social-media-scraping-apis",
       "description": "A curated collection of social media scraping APIs and tools for Instagram, LinkedIn, Twitter/X, TikTok, YouTube, Facebook, and more. Extract posts, profiles, videos, comments, and engagement metrics.",
@@ -10183,6 +10413,26 @@
       "language": "JavaScript",
       "topic": "scrape",
       "preview": "https://opengraph.githubassets.com/1/cporter202/social-media-scraping-apis"
+    },
+    {
+      "name": "WordPress/agent-skills",
+      "url": "https://github.com/WordPress/agent-skills",
+      "description": "Expert-level WordPress knowledge for AI coding assistants - blocks, themes, plugins, and best practices",
+      "stars_text": "2.4K",
+      "stars": 2399,
+      "language": "JavaScript",
+      "topic": "skills",
+      "preview": "https://opengraph.githubassets.com/1/WordPress/agent-skills"
+    },
+    {
+      "name": "benchflow-ai/skillsbench",
+      "url": "https://github.com/benchflow-ai/skillsbench",
+      "description": "SkillsBench evaluates how well skills work and how effective agents are at using them.",
+      "stars_text": "1.9K",
+      "stars": 1936,
+      "language": "PDDL",
+      "topic": "llm",
+      "preview": "https://opengraph.githubassets.com/1/benchflow-ai/skillsbench"
     },
     {
       "name": "Illyism/seo-skills",
@@ -10205,6 +10455,16 @@
       "preview": "https://opengraph.githubassets.com/1/Tejashmakwana/motionmaxxing"
     },
     {
+      "name": "nexscope-ai/eCommerce-Skills",
+      "url": "https://github.com/nexscope-ai/eCommerce-Skills",
+      "description": "E-commerce skills for AI agents — product research, marketing automation, supply chain optimization, and business analytics for online sellers across Amazon, Shopify, Etsy, TikTok Shop, and all platforms.",
+      "stars_text": "1.5K",
+      "stars": 1513,
+      "language": "Python",
+      "topic": "skills",
+      "preview": "https://opengraph.githubassets.com/1/nexscope-ai/eCommerce-Skills"
+    },
+    {
       "name": "bmkmanoj/js-by-examples",
       "url": "https://github.com/bmkmanoj/js-by-examples",
       "description": "Learn JavaScript by examples",
@@ -10215,6 +10475,46 @@
       "preview": "https://opengraph.githubassets.com/1/bmkmanoj/js-by-examples"
     },
     {
+      "name": "kostja94/marketing-skills",
+      "url": "https://github.com/kostja94/marketing-skills",
+      "description": "Agent Skills for Marketing — SEO, Social, Influencer & More. 160+ open-source skills for SEO, content, 40+ page types, paid ads, channels, and strategies. Add project context; get tailored, production-ready output. Cursor, Claude Code, OpenClaw — no lock-in.",
+      "stars_text": "1.1K",
+      "stars": 1137,
+      "language": "Khác",
+      "topic": "skills",
+      "preview": "https://opengraph.githubassets.com/1/kostja94/marketing-skills"
+    },
+    {
+      "name": "AgriciDaniel/claude-youtube",
+      "url": "https://github.com/AgriciDaniel/claude-youtube",
+      "description": "Claude Code skill for YouTube creators — channel audits, video SEO, retention scripts, thumbnails, content strategy, Shorts optimization, analytics, monetization, and more.",
+      "stars_text": "0.9K",
+      "stars": 863,
+      "language": "Python",
+      "topic": "genvideo",
+      "preview": "https://opengraph.githubassets.com/1/AgriciDaniel/claude-youtube"
+    },
+    {
+      "name": "LinklyAI/best-skills",
+      "url": "https://github.com/LinklyAI/best-skills",
+      "description": "Daily-updated Top 100 Agent Skills rankings — installs, growth, and social buzz aggregated from skills.sh, ClawHub, Tencent SkillHub, GitHub, X and 10+ communities. Open data (CSV).",
+      "stars_text": "0.8K",
+      "stars": 797,
+      "language": "Khác",
+      "topic": "awesome",
+      "preview": "https://opengraph.githubassets.com/1/LinklyAI/best-skills"
+    },
+    {
+      "name": "smixs/visual-skills",
+      "url": "https://github.com/smixs/visual-skills",
+      "description": "AI film director skills for agents: cinematic dramaturgy (Murch, blocking, montage) + exact prompt syntax for Seedance 2.5, Kling 3.0 Turbo/Omni, Veo 3.1, Nano Banana 2, GPT Image 2.5.",
+      "stars_text": "0.8K",
+      "stars": 750,
+      "language": "Khác",
+      "topic": "genvideo",
+      "preview": "https://opengraph.githubassets.com/1/smixs/visual-skills"
+    },
+    {
       "name": "Ernani1234/musike",
       "url": "https://github.com/Ernani1234/musike",
       "description": "Open-source music player for YouTube Music's catalog, with genres, full albums and playlists. Windows, macOS, Linux, Android, iPhone and Docker. No account needed.",
@@ -10223,6 +10523,116 @@
       "language": "TypeScript",
       "topic": "media",
       "preview": "https://opengraph.githubassets.com/1/Ernani1234/musike"
+    },
+    {
+      "name": "elevenlabs/skills",
+      "url": "https://github.com/elevenlabs/skills",
+      "description": "Collections of skills for building with ElevenLabs",
+      "stars_text": "0.6K",
+      "stars": 586,
+      "language": "Python",
+      "topic": "genmedia",
+      "preview": "https://opengraph.githubassets.com/1/elevenlabs/skills"
+    },
+    {
+      "name": "heygen-com/skills",
+      "url": "https://github.com/heygen-com/skills",
+      "description": "HeyGen AI agent skills — avatar creation and video production via the v3 Video Agent pipeline",
+      "stars_text": "0.6K",
+      "stars": 565,
+      "language": "Shell",
+      "topic": "genmedia",
+      "preview": "https://opengraph.githubassets.com/1/heygen-com/skills"
+    },
+    {
+      "name": "Bomx/OpenVideo",
+      "url": "https://github.com/Bomx/OpenVideo",
+      "description": "AI video production skill for agents: HeyGen avatars, Seedance b-roll, OpenAI images, Remotion, HyperFrames, screen recording, FFmpeg captions and QC.",
+      "stars_text": "0.4K",
+      "stars": 358,
+      "language": "Python",
+      "topic": "genvideo",
+      "preview": "https://opengraph.githubassets.com/1/Bomx/OpenVideo"
+    },
+    {
+      "name": "fal-ai-community/skills",
+      "url": "https://github.com/fal-ai-community/skills",
+      "description": "Bộ skill dùng nền tảng fal để tạo ảnh và video AI: ảnh sản phẩm, video quảng cáo, UGC, thiết kế nhân vật, storyboard thành phim ngắn, Việt hóa video và danh mục mô hình.",
+      "stars_text": "0.3K",
+      "stars": 273,
+      "language": "Python",
+      "topic": "genmedia",
+      "preview": "https://opengraph.githubassets.com/1/fal-ai-community/skills"
+    },
+    {
+      "name": "louisblythe/Sales-Skills",
+      "url": "https://github.com/louisblythe/Sales-Skills",
+      "description": "B2B sales playbooks for Claude Code and other AI agents, covering discovery, negotiation, pipeline and call analysis.",
+      "stars_text": "0.2K",
+      "stars": 219,
+      "language": "Ruby",
+      "topic": "skills",
+      "preview": "https://opengraph.githubassets.com/1/louisblythe/Sales-Skills"
+    },
+    {
+      "name": "Sunwood-ai-labs/hyperframes-motion-reel-skill",
+      "url": "https://github.com/Sunwood-ai-labs/hyperframes-motion-reel-skill",
+      "description": "🎬 Claude Code skill for showreel-grade, beat-synced motion graphics with HyperFrames (HTML + GSAP + SVG + Canvas, Apache-2.0) — 120 BPM / 60 FPS to MP4",
+      "stars_text": "0.2K",
+      "stars": 208,
+      "language": "Khác",
+      "topic": "genvideo",
+      "preview": "https://opengraph.githubassets.com/1/Sunwood-ai-labs/hyperframes-motion-reel-skill"
+    },
+    {
+      "name": "Avaneesh-Inamdar/Stream-Tube-Desktop",
+      "url": "https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop",
+      "description": "Native YouTube client for Windows in Rust, with SponsorBlock, DeArrow and Return YouTube Dislike built in",
+      "stars_text": "0.2K",
+      "stars": 159,
+      "language": "Rust",
+      "topic": "media",
+      "preview": "https://opengraph.githubassets.com/1/Avaneesh-Inamdar/Stream-Tube-Desktop"
+    },
+    {
+      "name": "MieMieeeee/comfyui-agent-skill",
+      "url": "https://github.com/MieMieeeee/comfyui-agent-skill",
+      "description": "Enable agents to run registered ComfyUI workflows through a local ComfyUI server using this repo’s CLI, returning structured JSON outputs.",
+      "stars_text": "0.1K",
+      "stars": 120,
+      "language": "Python",
+      "topic": "genmedia",
+      "preview": "https://opengraph.githubassets.com/1/MieMieeeee/comfyui-agent-skill"
+    },
+    {
+      "name": "heyman333/agent-notion-template-docs",
+      "url": "https://github.com/heyman333/agent-notion-template-docs",
+      "description": "Make your AI agent write documents like Notion — Codex & Claude Code skill that locks document structure & Notion visual style",
+      "stars_text": "0.1K",
+      "stars": 106,
+      "language": "Python",
+      "topic": "office",
+      "preview": "https://opengraph.githubassets.com/1/heyman333/agent-notion-template-docs"
+    },
+    {
+      "name": "LeadMagic/gtm-skills",
+      "url": "https://github.com/LeadMagic/gtm-skills",
+      "description": "GTM agent skills for Claude Code, Codex, and GitHub Copilot: sales, marketing, SEO, RevOps, and customer research playbooks with templates.",
+      "stars_text": "0.1K",
+      "stars": 80,
+      "language": "Python",
+      "topic": "skills",
+      "preview": "https://opengraph.githubassets.com/1/LeadMagic/gtm-skills"
+    },
+    {
+      "name": "runwayml/skills",
+      "url": "https://github.com/runwayml/skills",
+      "description": "for Runway coding agent skills",
+      "stars_text": "0.1K",
+      "stars": 76,
+      "language": "TypeScript",
+      "topic": "genvideo",
+      "preview": "https://opengraph.githubassets.com/1/runwayml/skills"
     },
     {
       "name": "botpress/botpress",
